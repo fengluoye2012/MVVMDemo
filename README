@@ -1,0 +1,7 @@
+# 目标
+  使用kotlin语言，组件化，MVVM架构，LiveData、Kotlin协程等相关搭建项目；
+
+  如何将网络请求封装的更优雅些
+#
+
+https://gitee.com/QingDian_Fan/MVVMDemo/blob/master/app/build.gradle
