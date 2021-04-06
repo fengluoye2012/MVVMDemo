@@ -1,14 +1,13 @@
 package com.fly.compontservice.http.base
 
-import android.app.Application
 import androidx.lifecycle.*
+import com.blankj.utilcode.util.Utils
 import com.fly.compontservice.http.model.ErrorModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
-open class BaseViewModel<T> : AndroidViewModel, LifecycleObserver {
+open class BaseViewModel<T> : AndroidViewModel(Utils.getApp()), LifecycleObserver {
 
-    constructor(application: Application) : super(application)
 
     private val error by lazy {
         MutableLiveData<ErrorModel>()
