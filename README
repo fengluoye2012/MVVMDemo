@@ -2,7 +2,10 @@
   使用kotlin语言，组件化，MVVM架构，LiveData、Kotlin协程等相关搭建项目；
 
   如何将网络请求封装的更优雅些
-#
+
+# Kotlin 协程Coroutine  Suspend
+- Kotlin - 协程 简介 https://www.jianshu.com/p/1de0adc92fbc
+
 
 https://gitee.com/QingDian_Fan/MVVMDemo/blob/master/app/build.gradle
 
